@@ -10,7 +10,7 @@
   <a href="#getting-started">Getting Started</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#contributors">Contributors</a>
-  <a href="#license">License</a> •
+  <a href="#license">License</a>
 </p>
 
 ## Introduction
