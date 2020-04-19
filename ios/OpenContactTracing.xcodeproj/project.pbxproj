@@ -20,6 +20,9 @@
 		3C1E33AF45C1DC477F28CAB0 /* libPods-OpenContactTracing-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 717C599C8270D7744B281285 /* libPods-OpenContactTracing-tvOSTests.a */; };
 		CA65FF0EEFB24B6D471F284C /* libPods-OpenContactTracing-OpenContactTracingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A089005720F3A1857A5046A7 /* libPods-OpenContactTracing-OpenContactTracingTests.a */; };
 		EAFCF19EDFE8E443971C9FBF /* libPods-OpenContactTracing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE85BDADC9367043FE900DC8 /* libPods-OpenContactTracing.a */; };
+		4E607433D1F34BE597609A34 /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78791F1EF8854D90885B7B36 /* Inter-Medium.otf */; };
+		BA37AEBA9F184F33AA6ED003 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3874665909C4DC5B1FC6514 /* Inter-Regular.otf */; };
+		ACC73E53E51948378BC91881 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D497D6A296A04520B7FA0489 /* Inter-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		E89E61F5E33AD80F0FE02F2E /* Pods-OpenContactTracing-OpenContactTracingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenContactTracing-OpenContactTracingTests.release.xcconfig"; path = "Target Support Files/Pods-OpenContactTracing-OpenContactTracingTests/Pods-OpenContactTracing-OpenContactTracingTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		78791F1EF8854D90885B7B36 /* Inter-Medium.otf */ = {isa = PBXFileReference; name = "Inter-Medium.otf"; path = "../assets/fonts/Inter-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3874665909C4DC5B1FC6514 /* Inter-Regular.otf */ = {isa = PBXFileReference; name = "Inter-Regular.otf"; path = "../assets/fonts/Inter-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D497D6A296A04520B7FA0489 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; name = "Inter-SemiBold.otf"; path = "../assets/fonts/Inter-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A1F01BD3C8BC66AD78EAA91F /* Pods */,
+				7826CE361BE841F1AE866749 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +204,17 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		7826CE361BE841F1AE866749 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				78791F1EF8854D90885B7B36 /* Inter-Medium.otf */,
+				D3874665909C4DC5B1FC6514 /* Inter-Regular.otf */,
+				D497D6A296A04520B7FA0489 /* Inter-SemiBold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -340,6 +358,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				4E607433D1F34BE597609A34 /* Inter-Medium.otf in Resources */,
+				BA37AEBA9F184F33AA6ED003 /* Inter-Regular.otf in Resources */,
+				ACC73E53E51948378BC91881 /* Inter-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

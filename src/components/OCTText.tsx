@@ -18,7 +18,15 @@ export default function OCTText({
 }: OCTTextProps) {
   return (
     <Text
-      style={[{ color, fontSize: size, textAlign: align }, style]}
+      style={[
+        {
+          color,
+          fontSize: size,
+          textAlign: align,
+          fontFamily: "Inter-Regular",
+        },
+        style,
+      ]}
       {...restProps}
     />
   );

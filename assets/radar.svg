@@ -1,0 +1,29 @@
+<svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.08" cx="180" cy="180" r="131.5" stroke="#2F80ED"/>
+<circle opacity="0.04" cx="180" cy="180" r="179.5" stroke="#2F80ED"/>
+<circle opacity="0.12" cx="180" cy="180" r="79.5" stroke="#2F80ED"/>
+<g opacity="0.1">
+<circle cx="325" cy="127" r="4" fill="#2F80ED"/>
+<circle cx="46" cy="51" r="4" fill="#2F80ED"/>
+<circle cx="230" cy="47" r="4" fill="#2F80ED"/>
+<circle cx="65" cy="139" r="4" fill="#2F80ED"/>
+<circle cx="34" cy="251" r="4" fill="#2F80ED"/>
+<circle cx="281" cy="235" r="4" fill="#2F80ED"/>
+</g>
+<circle opacity="0.1" cx="180" cy="176" r="28" fill="#2F80ED"/>
+<g filter="url(#filter0_d)">
+<circle cx="180" cy="176" r="16" fill="#2F80ED"/>
+<circle cx="180" cy="176" r="14" stroke="white" stroke-width="4"/>
+</g>
+<defs>
+<filter id="filter0_d" x="156" y="152" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.184314 0 0 0 0 0.501961 0 0 0 0 0.929412 0 0 0 0.35 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -12,6 +12,7 @@ export type colors = {
   secondarySystemFill: color;
   background: color;
   secondaryBackground: color;
+  underlayColor: color;
 };
 
 export const light: colors = {
@@ -22,6 +23,7 @@ export const light: colors = {
   secondarySystemFill: "rgba(120, 120, 128, 0.16)",
   background: "#fff",
   secondaryBackground: "#f2f2f7ff",
+  underlayColor: "rgba(0,0,0,0.2)",
 };
 
 export const dark: colors = {
@@ -32,4 +34,5 @@ export const dark: colors = {
   secondarySystemFill: "rgba(120, 120, 128, 0.32)",
   background: "#000",
   secondaryBackground: "rgb(28,28,30)",
+  underlayColor: "rgba(255,255,255,0.2)",
 };

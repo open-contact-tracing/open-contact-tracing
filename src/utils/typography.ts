@@ -20,8 +20,8 @@ export type typographyType = {
 };
 const typography: typographyType = {
   sizes: {
-    header: 18,
-    label: 16,
+    header: 17,
+    label: 15,
   },
   spacing: {
     _1: 4,
