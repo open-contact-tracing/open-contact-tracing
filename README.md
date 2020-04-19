@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300" src="https://raw.githubusercontent.com/open-contact-tracing/open-contact-tracing/master/assets/logo.svg?sanitize=true" alt="Logo">
+    <img width="400" src="https://raw.githubusercontent.com/open-contact-tracing/open-contact-tracing/master/assets/logo.svg?sanitize=true" alt="Logo">
   	<br><br>
     Open Source initiative for a complete Contact Tracing App and Backend based on the Apple/Google API.
 </p>
