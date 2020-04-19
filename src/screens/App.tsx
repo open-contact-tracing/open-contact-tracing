@@ -11,8 +11,14 @@ const App = () => {
   const colors = useColors();
   return (
     <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={{ justifyContent: "center", flex: 1 }}>
+      <StatusBar barStyle={colors.dark ? "light-content" : "dark-content"} />
+      <SafeAreaView
+        style={{
+          justifyContent: "center",
+          flex: 1,
+          backgroundColor: colors.background,
+        }}
+      >
         <View
           style={{
             padding: typography.spacing._5,
